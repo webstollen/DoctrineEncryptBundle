@@ -9,7 +9,7 @@ namespace VMelnik\DoctrineEncryptBundle\Encryptors;
  */
 class AES256Encryptor implements EncryptorInterface
 {
-    const ENCRYPT_METHOD = 'aes-256-ecb';
+    const ENCRYPT_METHOD = 'aes-256-cbc';
 
     /**
      * @var string
